@@ -16,8 +16,7 @@ int indice2 = 0;
 // FUNCION 1 universal limpiarBuffer
 void limpiarBuffer()
 {
-	int c;
-	while ((c = getchar()) != '\n' && c != EOF); // LIMPIAR EL BUFFER
+	fflush(stdin); // LIMPIAR EL BUFFER
 }
 
 // FUNCION 2
