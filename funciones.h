@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 
 // VARIABLES GLOBALES
 int casos[4][24] = {0};
